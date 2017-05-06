@@ -1,0 +1,46 @@
+<div class="container">
+
+      	<table align="right" style="margin-right:10px; margin-top:10px; font-family:calibri; font-weight:bold;">
+      		<tr>
+      			<td ng-if="time >= 1000" style="color:green">Time Left: {{hour}} Hours,  {{minute}} Minutes, : {{seconds}} Seconds</td>
+       		</tr>
+       		<tr>
+       			<td ng-if="time < 1000" style="color:red">Time Left: {{hour}} Hours, {{minute}} Minutes, {{seconds}} Seconds</td>
+       		</tr>	
+      	</table>
+       		        		
+       		<br><br><br>
+     
+       		<ul><li style="list-style-type:none">{{id}}. {{firstQuestion}}</li></ul>
+       
+	   		<ul ng-repeat="iterator in optionsForFirstQuestion">
+	   			<li style="list-style-type:none"><input type="radio" name="selectedOption" ng-model="$parent.option" value="{{iterator.value}}" ng-checked="(iterator.value==answeredAnswer)"></input> {{iterator.value}}</li>
+	   		</ul>
+	   		 	   
+	   		
+	   <table align="center">
+	  	     
+	   <tr ng-if="indication==true">
+	   		<td><button  ng-click="previousQuestion()" ng-disabled="isFirstQuestion" class="btn"> Previous  </button></td>
+	   		<td><button  ng-click="nextQuestion(option)" ng-disabled="isLastQuestion" class="btn"> Next </button></td>
+	   		<td><button  ng-show="isLastQuestion" ng-click="submit()" class="btn">Submit</button>	   		
+	   </tr>
+	
+	</table>
+	<br><br><br>
+	<table align="center">
+		<tr>
+			<td>
+				<button ng-repeat="iterator in ids" ng-click="randomNavigation(iterator)" ng-style="isAnswered[iterator-1]==undefined && {{unattemptedQuestionsStyle}} || isAnswered[iterator-1]=='answered' && {{attemptedQuestionsStyle}}">{{iterator}}</button>
+				
+			</td>
+        
+        </tr>
+	       
+	</table>
+	   
+          
+      
+</div>           
+            
+            
