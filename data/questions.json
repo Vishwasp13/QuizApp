@@ -1,0 +1,146 @@
+{"questions":[
+
+	{
+		"id":"1",
+		"question":"Which is the coldest planet of solar system",
+		"answer": "Neptune",
+		"options":{ "option":
+				[
+					{ "value": "Neptune"},
+					{ "value": "Saturn"},
+					{ "value": "Uranus"},
+					{ "value": "Mars"}
+					
+				]
+			}
+	},
+	
+	{
+		"id":"2",
+		"question":"Who is the governor of RBI",
+		"answer": "Raghuram Rajan",
+		"options":{ "option":
+			[
+				{ "value": "D.Subbarao"},
+				{ "value": "Raghuram Rajan"},
+				{ "value": "Y.V Reddy"},
+				{ "value": "P. Chidambaram"}
+				
+			]
+		}	
+	},
+	{
+		"id":"3",
+		"question":"Grand Central Terminal, Park Avenue, New York is the worlds ______",
+		"answer": "Largest Railway Station",
+		"options":{ "option":
+			[
+				{ "value": "Highest Railway Station"},
+				{ "value": "Largest Railway Station"},
+				{ "value": "Longest Railway Station"},
+				{ "value": "None of the above"}
+				
+			]
+		}	
+	},
+	{
+		"id":"4",
+		"question":"Entomology is science that studies ______",
+		"answer": "Insects",
+		"options":{ "option":
+			[
+				{ "value": "Insects"},
+				{ "value": "Behaviour of human beings"},
+				{ "value": "The origin of historical and scientific terms"},
+				{ "value": "The formation of rocks"}
+				
+			]
+		}	
+	},
+	{
+		"id":"5",
+		"question":"Eriteria, which became the 182nd member of the UN in 1993, is in the continent of____",
+		"answer": "Africa",
+		"options":{ "option":
+			[
+				{ "value": "Asia"},
+				{ "value": "Australia"},
+				{ "value": "Europe"},
+				{ "value": "Africa"}
+				
+			]
+		}	
+	},
+	{
+		"id":"6",
+		"question":"Garampani is located at____",
+		"answer": "Diphu, Assam",
+		"options":{ "option":
+			[
+				{ "value": "Junagarh, Gujarat"},
+				{ "value": "Diphu, Assam"},
+				{ "value": "Kohima, Nagaland"},
+				{ "value": "Gangtok, Sikkim"}
+				
+			]
+		}	
+	},
+	{
+		"id":"7",
+		"question":"For which of the following disciplines is the Nobel Prize awarded?",
+		"answer": "All Of The Above",
+		"options":{ "option":
+			[
+				{ "value": "Physiology or Medicine"},
+				{ "value": "Physics and Chemistry"},
+				{ "value": "Literature, Peace and Economics"},
+				{ "value": "All Of The Above"}
+				
+			]
+		}	
+	},
+	{
+		"id":"8",
+		"question":"Hitler Party which came into power in 1933 is known as ______",
+		"answer": "Nazi Party",
+		"options":{ "option":
+			[
+				{ "value": "Labour Party"},
+				{ "value": "Ku-Klux-Klan"},
+				{ "value": "Nazi Party"},
+				{ "value": "Democratic Party"}
+				
+			]
+		}	
+	},
+	{
+		"id":"9",
+		"question":"FFC stands for ______",
+		"answer": "Film Finance Corporation",
+		"options":{ "option":
+			[
+				{ "value": "Film Finance Corporation"},
+				{ "value": "Federation of Football Council"},
+				{ "value": "Foreign Finance Corporation"},
+				{ "value": "None of the above"}
+				
+			]
+		}	
+	},
+	{
+		"id":"10",
+		"question":"Fastest shorthand writer was ______",
+		"answer": "Dr. G. D. Bist",
+		"options":{ "option":
+			[
+				{ "value": "J.R.D. Tata"},
+				{ "value": "Dr. G. D. Bist"},
+				{ "value": "Khudada Khan"},
+				{ "value": "J.M. Tagore"}
+				
+			]
+		}	
+	}
+
+]
+}
